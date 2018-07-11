@@ -2,11 +2,11 @@
 <img width="720px" src="https://user-images.githubusercontent.com/2954281/39627047-0ced461a-4fad-11e8-84bb-65e8f090d67d.png">
 </p>
 <p align="center">
-<a href="https://hoverboard-v2-dev.firebaseapp.com" align="center">:zap: Live demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://devfest-5388e.firebaseapp.com" align="center">:zap: Live demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 <a href="#getting-started">:rocket: Get Started</a>
 </p>
 
-[![Build Status](https://travis-ci.org/gdg-x/hoverboard.svg?branch=master)](https://travis-ci.org/gdg-x/hoverboard) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard?ref=badge_shield)
+[![Build Status](https://travis-ci.org/bnap00/hoverboard.svg?branch=hoverboard-v2)](https://travis-ci.org/bnap00/hoverboard)
 
 ## Overview
 Project Hoverboard is the conference website template that helps you to set up mobile first conference website with blog, speakers and schedule management in a few minutes.

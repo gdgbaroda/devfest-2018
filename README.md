@@ -6,7 +6,7 @@
 <a href="#getting-started">:rocket: Get Started</a>
 </p>
 
-[![Build Status](https://travis-ci.org/bnap00/hoverboard.svg?branch=hoverboard-v2)](https://travis-ci.org/bnap00/hoverboard)
+[![Build Status](https://travis-ci.org/gdgbaroda/devfest-2018.svg?branch=hoverboard-v2)](https://travis-ci.org/gdgbaroda/devfest-2018)
 
 ## Overview
 Project Hoverboard is the conference website template that helps you to set up mobile first conference website with blog, speakers and schedule management in a few minutes.

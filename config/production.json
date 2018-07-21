@@ -1,15 +1,15 @@
 {
   "basepath": "/",
-  "url": "https://devfest-5388e.firebaseapp.com/",
+  "url": "https://books2go-56df4.firebaseapp.com/",
   "analytics": "UA-43643469-9",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyD4PRe2ybLGpa15o3IA1aeu7SmzSXeww30",
-    "authDomain": "devfest-5388e.firebaseapp.com",
-    "databaseURL": "https://devfest-5388e.firebaseio.com",
-    "projectId": "devfest-5388e",
-    "storageBucket": "devfest-5388e.appspot.com",
-    "messagingSenderId": "124382804252"
+    "apiKey": "AIzaSyAQglLCVRekRnBoDnn55DgeGErWeEq3E60",
+    "authDomain": "books2go-56df4.firebaseapp.com",
+    "databaseURL": "https://books2go-56df4.firebaseio.com",
+    "projectId": "books2go-56df4",
+    "storageBucket": "books2go-56df4.appspot.com",
+    "messagingSenderId": "41585649666"
   },
   "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"
 }

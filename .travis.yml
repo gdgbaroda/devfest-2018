@@ -21,8 +21,6 @@ deploy:
   on:
     branch: develop
   project: devfest-5388e
-  token:
-    secure: "JV//C9oq7LpkDHQWFAfMoUPiRe/pIM9BwJ/8OYOzulFcCld3zvN4HO1Z3xGcRcTCnNrI3AOgv4KqDZ5NgG9G9M0wyz0vgp9ynaRz2B3SIddqY+LV5xB68yN7vt5sRQngVEVhbyoo1sQBrm0hXvlGbMUiD+a1u8jMk+el8N0eHJwkzuopOthLaBp6tUjWbPjPYMHdeRS9l2JODfXe69C/NC6FZsUUDQP/AMmli1qzFQCQtzpovwtvP1sYSiVO4ZBDgKOEGq7leNBfVx1soXIBFSy5IBO/PQ7JtqTT8jG/dGo0x3o/1gQTheikidkB4KjAn+FPIpY7vLMgJRJvfvYy5eRlYtuKVgES7oNZXqjm5Y5ztsZMSSpvGJFZxYQtCg/sCJGzOzI/CYnUsLHkA/JatCNFyRij7jXhCRHl9Au4zvW/IL4FsAiup+XZJKJ3Bibh0Ml9/oJuznDQvtWYK0coNicJCdeTv+VPU4nzTXupCEtVp3+50Lv4nl0s7ZbePqMgBTMc4dq9Xbw3MOgHqTjh5ezqlzJbZ/weUrC0pi0VpbpDsYN+StVmf1av7P6cVOBmwUhTtwHhNhcZgQDc5u8uBbj6zvw8mmA0nPyhujc4Rs+1w1UBlj19Xm52fiNTpCatGzoD6EjzG0JUXMxGRPG8fQ0UU3q20PwCd2fUWGhC+QQ="
 - provider: firebase
   skip_cleanup: true
   on:

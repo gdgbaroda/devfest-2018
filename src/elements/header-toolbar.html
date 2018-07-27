@@ -312,6 +312,11 @@
           });
         }
       }
+
+
+      _subscribeAction(data) {
+        this.dispatch(subscribeActions.subscribe(data));
+      }
     }
 
     customElements.define(HeaderToolbar.is, HeaderToolbar);

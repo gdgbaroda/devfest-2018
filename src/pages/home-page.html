@@ -170,9 +170,7 @@
             {$ buyTicket $}
           </paper-button> -->
 
-          <paper-button
-            on-tap="_subscribe"
-            primary invert>
+          <paper-button on-tap="_subscribe" primary invert>
             <iron-icon icon="hoverboard:bell"></iron-icon>
             Subscribe to Updates
           </paper-button>
@@ -215,6 +213,10 @@
             type: Object,
             statePath: 'ui.viewport',
           },
+          user: {
+            type: Object,
+            statePath: 'user',
+          },
         };
       }
 
@@ -239,6 +241,36 @@
       _scrollNextBlock() {
         const heroHeight = this.$.hero.getBoundingClientRect().height - 64;
         this.scrollToY(heroHeight, 600, 'easeInOutSine');
+      }
+
+      _subscribe() {
+        let userData = {};
+
+        if (this.user.signedIn) {
+          const fullNameSplit = this.user.displayName.split(' ');
+          userData = {
+            firstFieldValue: fullNameSplit[0],
+            secondFieldValue: fullNameSplit[1],
+          };
+        }
+
+        if (this.user.email) {
+          this._subscribeAction(Object.assign({}, { email: this.user.email }, userData));
+        } else {
+          dialogsActions.openDialog(DIALOGS.SUBSCRIBE, {
+            title: '{$ subscribeBlock.formTitle $}',
+            submitLabel: ' {$ subscribeBlock.subscribe $}',
+            firstFieldLabel: '{$ subscribeBlock.firstName $}',
+            secondFieldLabel: '{$ subscribeBlock.lastName $}',
+            firstFieldValue: userData.firstFieldValue,
+            secondFieldValue: userData.secondFieldValue,
+            submit: (data) => this._subscribeAction(data),
+          });
+        }
+      }
+
+      _subscribeAction(data) {
+        this.dispatch(subscribeActions.subscribe(data));
       }
     }
 

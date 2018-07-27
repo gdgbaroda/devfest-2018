@@ -58,8 +58,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Check back often as we add more speakers, including our customers and partners.",
+      "description": "Check back often as we add more speakers, including our customers and partners.",
       "background": {
         "color": "#FFF"
       },
@@ -83,7 +83,8 @@
     },
     "team": {
       "title": "Team",
-      "metaDescription": "Get more info about organizers",
+      "description": "Get to know the people behind this year's DevFest!",
+      "metaDescription": "Get to know the people behind this year's DevFest!",
       "background": {
         "color": "#fff"
       },
@@ -108,20 +109,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
+    "name": "To be decided",
+    "description": "",
     "city": "Baroda",
     "short": "Baroda, Gujarat",
-    "address": "TBD",
+    "address": "Not decided",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
-      "zoom": 5
+      "latitude": 22.305784, 
+      "longitude":  73.184464,
+      "zoom": 12
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
-    },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+      "latitude": 22.305784, 
+      "longitude":  73.184464
+    }
   },
   "mediaQueries": {
     "xs": {
@@ -143,15 +144,11 @@
     "follow": [
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://www.facebook.com/gdgbaroda/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "url": "https://twitter.com/gdgbaroda/"
       },
       {
         "name": "youtube",
@@ -173,7 +170,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "curosmj@gmail.com",
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
     "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"

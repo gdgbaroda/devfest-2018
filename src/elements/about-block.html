@@ -31,6 +31,26 @@
         grid-template-columns: repeat(2, 1fr);
       }
 
+      .date-block {
+        width: 100%;
+        color: var(--default-primary-color);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .date {
+        font-size: 36px;
+        font-weight: 200;
+      }
+
+      .location {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
       .numbers {
         font-size: 40px;
       }
@@ -100,28 +120,9 @@
           </paper-button>
         </div>
 
-        <div class="statistics-block">
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.attendees.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.attendees.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.days.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.days.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.sessions.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.sessions.label $}</div>
-          </div>
-
-          <div class="item">
-            <div class="numbers">{$ aboutBlock.statisticsBlock.tracks.number $}</div>
-            <div class="label">{$ aboutBlock.statisticsBlock.tracks.label $}</div>
-          </div>
-
+        <div class="date-block">
+          <div class="date">30 September, 2018</div>
+          <div class="location"></div>
         </div>
       </div>
     </div>

@@ -153,7 +153,10 @@
         {% endfor %}
 
         <a href="#" onclick="return false;">
-          <paper-button class="buy-button" on-tap="_subscribe" primary>Subscribe</paper-button>
+          <paper-button class="buy-button" on-tap="_subscribe" primary>
+            <iron-icon icon="hoverboard:bell" style="--iron-icon-fill-color: #fff;"></iron-icon>
+            Subscribe
+          </paper-button>
         </a>
 
         <!-- <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"

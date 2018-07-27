@@ -2,10 +2,10 @@
   "organizer": {
     "name": "GDG Baroda",
     "twitter": "gdgbaroda",
-    "blog": "https://medium.com/gdg-baroda",
-    "url": "http://gdgbaroda.com/"
+    "blog": "https://gdgbaroda.com",
+    "url": "https://gdgbaroda.com"
   },
-  "startDate": "2018-09-010T07:00:00+05:30",
+  "startDate": "2018-09-30T09:00:00+05:30",
   "endDate": "2018-09-30T18:00:00+05:30",
   "webapp": {
     "shortName": "DevFest",
@@ -15,23 +15,13 @@
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest17",
+  "hashtag": "DevFest18",
   "disabledSchedule": false,
   "navigation": [
     {
       "route": "home",
       "permalink": "/",
       "title": "Home"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "title": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "title": "Schedule"
     },
     {
       "route": "team",
@@ -46,7 +36,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "Learn. Create. Share.",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -114,9 +104,9 @@
   "location": {
     "label": "Location",
     "name": "Planeta kino",
-    "city": "Vadodara",
-    "short": "Vadodara, Gujarat",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "city": "Baroda",
+    "short": "Baroda, Gujarat",
+    "address": "TBD",
     "pointer": {
       "latitude": 49.809841,
       "longitude": 23.972805,

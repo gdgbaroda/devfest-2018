@@ -24,14 +24,19 @@
       "title": "Home"
     },
     {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "title": "Speakers"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "title": "Schedule"
+    },
+    {
       "route": "team",
       "permalink": "/team/",
       "title": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "title": "Blog"
     }
   ],
   "heroSettings": {

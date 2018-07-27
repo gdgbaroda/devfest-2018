@@ -2,7 +2,7 @@
   "organizer": {
     "name": "GDG Baroda",
     "twitter": "gdgbaroda",
-    "blog": "https://medium.com/gdg-baroda",
+    "blog": "https://gdgbaroda.com",
     "url": "http://gdgbaroda.com/"
   },
   "startDate": "2018-09-010T07:00:00+05:30",
@@ -37,11 +37,6 @@
       "route": "team",
       "permalink": "/team/",
       "title": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/",
-      "title": "Blog"
     }
   ],
   "heroSettings": {
@@ -52,14 +47,6 @@
         "image": "/images/backgrounds/home.jpg"
       },
       "fontColor": "#FFF"
-    },
-    "blog": {
-      "title": "Blog",
-      "metaDescription": "Read stories from our team",
-      "background": {
-        "color": "#FFF"
-      },
-      "fontColor": "#424242"
     },
     "speakers": {
       "title": "Speakers",
@@ -89,14 +76,6 @@
     "team": {
       "title": "Team",
       "metaDescription": "Get more info about organizers",
-      "background": {
-        "color": "#fff"
-      },
-      "fontColor": "#424242"
-    },
-    "faq": {
-      "title": "FAQs",
-      "metaDescription": "Find you answer right here!",
       "background": {
         "color": "#fff"
       },

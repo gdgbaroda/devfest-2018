@@ -1,0 +1,31 @@
+language: node_js
+node_js: 8
+cache:
+  yarn: true
+  directories:
+  - node_modules
+  - "${NVM_PATH}_modules"
+install:
+- yarn
+- cd functions && yarn && cd ..
+script:
+- yarn lint
+- echo "Building..."
+- if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
+- if [ "$TRAVIS_BRANCH" == "hoverboard-v2" ]; then yarn build:prod; fi
+before_deploy:
+- echo "Deploying!"
+deploy:
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: develop
+  project: devfest-5388e
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: hoverboard-v2
+  project: books2go-56df4
+# env:
+#   global:
+#     secure: Zbwn3BZpSIWjhMB4c+vewmfj9yoy63RaqFKJe1gGMP2o3wEsJlJBBmzEOtAeexuhYEXYiHheHB50H+CnGY5e/NnwkB9MZAAGibKfuzrNOT8jFIi61rJaGDHs4q013wQhD2Lb69D8da9XeoES1Eh7kYZoJN+m2zQs4QObzm9shAXfH80GEDrWbXGful6CIN+79aKQCJz8mpnxLbRT0W6fcmMi40ixlz3WynJvZNlA0PVJoiuZf0q9Dyg0D5Zg90Hr0H60gOrbetF7Ub0aQqcvlvMp4bkNgWnZMQyvNHYyfWDqeyIymN0bTxGcv6YUGMSW8I2ROQRy+X4EIv69toINB2z52jtprsUSSv6foRENOXjeBXBhcgV2fAp5uWr5DofAyGAjx7bPzcwL66KHQUiENKXyOmzXekTuwnFRA9nd4Lt/dPwg3vfFLpHBStOQj1biUJ5XWErHiYJdf64OI0FdGJesgU0uDg+mL0nu8SmquX0BXUSwsPC61/dA/g8uPvlMMHBpBPfvtLPCZwfKs1+VNQKmrnP3ujzQRkAPoYbKikW3V1XIKHM38e43x35dbvFoEvl8k1XP3A72zxOt+eiJiBhp9VHppSCHzmGSsCK2P+EAe1lVJISZbaYVbXoCEera6za+oTkuzHoacwzkhp9eiT2awHPb0i1k8pi/ad1li2I=

@@ -1,0 +1,15 @@
+bower_components/
+dist/
+node_modules/
+build/
+functions/lib/
+.idea/
+.temp/
+.vscode/
+.firebaserc
+/appengine/dist/
+serviceAccount.json
+serviceAccount-dev.json
+serviceAccount-prod.json
+firebase-debug.log
+npm-debug.log

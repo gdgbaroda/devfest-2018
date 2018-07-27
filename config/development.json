@@ -1,0 +1,15 @@
+{
+  "basepath": "/",
+  "url": "https://devfest-5388e.firebaseapp.com/",
+  "analytics": "UA-43643469-9",
+  "prefix": "/",
+  "firebase": {
+    "apiKey": "AIzaSyD4PRe2ybLGpa15o3IA1aeu7SmzSXeww30",
+    "authDomain": "devfest-5388e.firebaseapp.com",
+    "databaseURL": "https://devfest-5388e.firebaseio.com",
+    "projectId": "devfest-5388e",
+    "storageBucket": "devfest-5388e.appspot.com",
+    "messagingSenderId": "124382804252"
+  },
+  "googleMapApiKey": "AIzaSyDWy6O98n-ueoVaYPWRPve23vjm3JP08gw"
+}

@@ -12,7 +12,7 @@ script:
 - yarn lint
 - echo "Building..."
 - if [ "$TRAVIS_BRANCH" == "develop" ]; then yarn build; fi
-- if [ "$TRAVIS_BRANCH" == "hoverboard-v2" ]; then yarn build:prod; fi
+- if [ "$TRAVIS_BRANCH" == "master" ]; then yarn build:prod; fi
 before_deploy:
 - echo "Deploying!"
 deploy:
@@ -24,7 +24,7 @@ deploy:
 - provider: firebase
   skip_cleanup: true
   on:
-    branch: hoverboard-v2
+    branch: master
   project: books2go-56df4
 # env:
 #   global:

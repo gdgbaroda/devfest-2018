@@ -1,5 +1,11 @@
 import { initializeFirebase, firestore } from './firebase-config';
-import data from '../docs/default-firebase-data.json';
+import yaml from 'node-yaml';
+
+let data = {};
+
+const loadData = () => {
+  data = yaml.readSync('../database.yaml');
+}
 
 const importSpeakers = () => {
   const speakers = data.speakers;
@@ -252,6 +258,7 @@ const importNotificationsConfig = async () => {
 };
 
 initializeFirebase()
+  .then(() => loadData())
   .then(() => importBlog())
   .then(() => importGallery())
   .then(() => importNotificationsConfig())

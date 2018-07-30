@@ -9,8 +9,8 @@
   "endDate": "2018-09-30T18:00:00+05:30",
   "webapp": {
     "shortName": "DevFest",
-    "themeColor": "#ff0000",
-    "backgroundColor": "#673AB7"
+    "themeColor": "#303F9F",
+    "backgroundColor": "#303F9F"
   },
   "dateFormat": {
     "locale": "en-US"

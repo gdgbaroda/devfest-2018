@@ -9,7 +9,7 @@
   "endDate": "2018-09-30T18:00:00+05:30",
   "webapp": {
     "shortName": "DevFest",
-    "themeColor": "#673AB7",
+    "themeColor": "#ff0000",
     "backgroundColor": "#673AB7"
   },
   "dateFormat": {
@@ -44,7 +44,7 @@
       "description": "Learn. Create. Share.",
       "background": {
         "color": "#673ab7",
-        "image": "/images/backgrounds/home.jpg"
+        "image": "/images/banner-01.jpg"
       },
       "fontColor": "#FFF"
     },
@@ -170,11 +170,7 @@
       }
     ]
   },
-  "mailto": "curosmj@gmail.com",
-  "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
-  },
+  "mailto": "help@gdgbaroda.com",
   "signInProviders": {
     "providersData": [
       {

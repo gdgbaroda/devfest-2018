@@ -58,8 +58,7 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Check back often as we add more speakers, including our customers and partners.",
-      "description": "Check back often as we add more speakers, including our customers and partners.",
+      "description": "If you wish to deliver a talk or session, please submit a response to call for papers.",
       "background": {
         "color": "#FFF"
       },
@@ -109,11 +108,11 @@
   },
   "location": {
     "label": "Location",
-    "name": "To be decided",
+    "name": "Yet to be announced",
     "description": "",
     "city": "Baroda",
     "short": "Baroda, Gujarat",
-    "address": "Not decided",
+    "address": "Yet to be announced",
     "pointer": {
       "latitude": 22.305784, 
       "longitude":  73.184464,

@@ -150,8 +150,8 @@
     </style>
 
     <polymer-helmet
-      title="Speakers | GDG DevFest Ukraine"
-      description="Learn more about speakers"
+      title="{$ heroSettings.speakers.title $} | {$ title $}"
+      description="{$ heroSettings.speakers.description $}"
       active="[[_setHelmetData(active, isDialogOpened)]]"
     ></polymer-helmet>
 
@@ -169,6 +169,9 @@
     >
       <div class="hero-title highlight-font">{$ heroSettings.speakers.title $}</div>
       <p class="hero-description">{$ heroSettings.speakers.description $}</p>
+      <a href="https://bit.ly/gdgbaroda-devfest2018-cfp" target="_blank">
+        <paper-button primary>Call for papers</paper-button>
+      </a>
     </hero-block>
 
     <paper-progress indeterminate hidden$="[[contentLoaderVisibility]]"></paper-progress>

@@ -141,11 +141,11 @@
     }
   },
   "galleryBlock": {
-    "title": "#devfest17 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "DevFest 2017 & 2016 Highlights",
+    "description": "Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://imgur.com/a/PgHSlc6"
     }
   },
   "mapBlock": {
@@ -198,7 +198,7 @@
     }
   },
   "aboutOrganizerBlock": {
-    "image": "/images/team.jpg",
+    "image": "/images/cover-image-team.jpg",
     "blocks": [
       {
         "title": "Organizer",

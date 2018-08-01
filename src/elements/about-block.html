@@ -107,23 +107,21 @@
           </a>
 
           <p>{$ aboutBlock.callToAction.howItWas.description $}</p>
-          <paper-button
-            class="animated icon-right"
-            on-tap="_playVideo"
-            ga-on="click"
-            ga-event-category="video"
-            ga-event-action="watch"
-            ga-event-label="about block - {$ aboutBlock.callToAction.howItWas.label $}"
-          >
-            <span>{$  aboutBlock.callToAction.howItWas.label $}</span>
-            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-          </paper-button>
+          <a href="https://gdgbaroda.com">
+            <paper-button
+              class="animated icon-right">
+              <span>{$  aboutBlock.callToAction.howItWas.label $}</span>
+              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+            </paper-button>
+          </a>
         </div>
 
-        <div class="date-block">
-          <div class="date">30 September, 2018</div>
-          <div class="location"></div>
-        </div>
+            <plastic-image
+            srcset="../../images/logos/gdg.png"
+            sizing="contain"
+            alt="GDG"
+            lazy-load
+          ></plastic-image>
       </div>
     </div>
 

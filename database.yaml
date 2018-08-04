@@ -33,7 +33,7 @@ partners:
     url: https://github.com/gdg-x
 schedule:
   '2018-09-30':
-    dateReadable: September 30
+    dateReadable: Coming Soon
     timeslots:
     - endTime: '18:00'
       sessions:
@@ -521,8 +521,8 @@ team:
 tickets:
 - available: false
   currency: "₹"
-  starts: Sept 1
-  ends: Sept 10
+  starts: ''
+  ends: ''
   inDemand: true
   info: 'Only 50 seats available'
   name: Early Bird
@@ -532,12 +532,12 @@ tickets:
   url: https://gdgbaroda.com
 - available: false
   currency: "₹"
-  ends: Sept 25
+  ends: ''
   info: ''
   name: Regular
   price: 149
   soldOut: false
-  starts: Sept 10
+  starts: ''
   url: https://gdgbaroda.com
 triggers:
   images: false

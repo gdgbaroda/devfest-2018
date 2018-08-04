@@ -1,9 +1,9 @@
 {
   "title": "GDG DevFest: Baroda, 2018",
-  "description": "GDG Baroda brings to you the biggest Google event in Baroda. Join us for this year's DevFest on 30 September, 2018!",
+  "description": "GDG Baroda brings to you the biggest Google event in Baroda. Join us for this year's DevFest! To subscribe for updates, visit website.",
   "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, baroda, gdgbaroda",
-  "dates": "September 30, 2018",
+  "dates": "",
   "partnershipProposition": "mailto:manan@gdgbaroda.com",
   "share": "Share",
   "followOur": "Follow our",
@@ -145,7 +145,7 @@
     "description": "Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
     "callToAction": {
       "label": "See all photos",
-      "link": "https://imgur.com/a/PgHSlc6"
+      "url": "https://imgur.com/a/PgHSlc6"
     }
   },
   "mapBlock": {

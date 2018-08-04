@@ -18,26 +18,6 @@
   "hashtag": "DevFest18",
   "disabledSchedule": false,
   "navigation": [
-    {
-      "route": "home",
-      "permalink": "/",
-      "title": "Home"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "title": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "title": "Schedule"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/",
-      "title": "Team"
-    }
   ],
   "heroSettings": {
     "home": {

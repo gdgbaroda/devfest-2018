@@ -152,79 +152,18 @@
         </paper-tab>
         {% endfor %}
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <a href="#" onclick="return false;">
+          <paper-button class="buy-button" on-tap="_subscribe" primary>
+            <iron-icon icon="hoverboard:bell" style="--iron-icon-fill-color: #fff;"></iron-icon>
+            Subscribe
+          </paper-button>
+        </a>
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
+        <!-- <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a>
+        </a> -->
       </paper-tabs>
-
-      <paper-menu-button
-        id="notificationsMenu"
-        class="notifications-menu"
-        vertical-align="top"
-        horizontal-align="right"
-        no-animations
-      >
-        <paper-icon-button
-          icon="hoverboard:[[_getNotificationsIcon(notifications.status)]]"
-          slot="dropdown-trigger"
-        ></paper-icon-button>
-        <div class="dropdown-panel" slot="dropdown-content">
-          <div hidden$="[[_hideNotificationBlock(notifications.status, 'DEFAULT')]]">
-            <p>{$ notifications.default $}</p>
-            <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="_toggleNotifications">{$ notifications.subscribe $}</paper-button>
-            </div>
-          </div>
-          <div hidden$="[[_hideNotificationBlock(notifications.status, 'GRANTED')]]">
-            <p>{$ notifications.enabled $}</p>
-            <div class="panel-actions" layout horizontal end-justified>
-              <paper-button primary-text on-tap="_toggleNotifications">{$ notifications.unsubscribe $}</paper-button>
-            </div>
-          </div>
-          <div hidden$="[[_hideNotificationBlock(notifications.status, 'DENIED')]]">
-            <p>{$ notifications.blocked $}</p>
-            <div class="panel-actions" layout horizontal end-justified>
-              <a href="{$ notifications.enable.link $}" target="_blank" rel="noopener noreferrer">
-                <paper-button primary-text on-tap="_closeNotificationMenu">{$ notifications.enable.label $}
-                </paper-button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </paper-menu-button>
-
-      <paper-menu-button
-        class="auth-menu"
-        hidden$="[[!user.signedIn]]"
-        vertical-align="top"
-        horizontal-align="right"
-        no-animations
-        layout horizontal center-center>
-        <div
-          class="profile-image" slot="dropdown-trigger"
-          style$="background-image: url('[[user.photoURL]]')"
-        ></div>
-        <div class="dropdown-panel profile-details" slot="dropdown-content" layout horizontal>
-          <div
-            class="profile-image" slot="dropdown-trigger" self-center
-            style$="background-image: url('[[user.photoURL]]')"
-          ></div>
-          <div layout vertical center-justified>
-            <span class="profile-name">[[user.displayName]]</span>
-            <span class="profile-email">[[user.email]]</span>
-            <span class="profile-action" role="button" on-tap="signOut">{$ signOut $}</span>
-          </div>
-        </div>
-      </paper-menu-button>
-
-      <paper-icon-button
-        icon="hoverboard:account"
-        on-tap="signIn"
-        hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
-      ></paper-icon-button>
     </app-toolbar>
 
   </template>
@@ -346,6 +285,37 @@
           '--hero-logo-opacity': settings.hideLogo ? 0 : 1,
           '--hero-logo-color': settings.backgroundImage ? '#fff' : 'var(--default-primary-color)',
         });
+      }
+
+      _subscribe() {
+        let userData = {};
+
+        if (this.user.signedIn) {
+          const fullNameSplit = this.user.displayName.split(' ');
+          userData = {
+            firstFieldValue: fullNameSplit[0],
+            secondFieldValue: fullNameSplit[1],
+          };
+        }
+
+        if (this.user.email) {
+          this._subscribeAction(Object.assign({}, { email: this.user.email }, userData));
+        } else {
+          dialogsActions.openDialog(DIALOGS.SUBSCRIBE, {
+            title: '{$ subscribeBlock.formTitle $}',
+            submitLabel: ' {$ subscribeBlock.subscribe $}',
+            firstFieldLabel: '{$ subscribeBlock.firstName $}',
+            secondFieldLabel: '{$ subscribeBlock.lastName $}',
+            firstFieldValue: userData.firstFieldValue,
+            secondFieldValue: userData.secondFieldValue,
+            submit: (data) => this._subscribeAction(data),
+          });
+        }
+      }
+
+
+      _subscribeAction(data) {
+        this.dispatch(subscribeActions.subscribe(data));
       }
     }
 

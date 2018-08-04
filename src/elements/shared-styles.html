@@ -25,6 +25,21 @@
         --border-light-color: #E2E2E2;
         --error-color: #e64a19;
 
+        --dark-primary-color:       #303F9F;
+        --default-primary-color:    #3F51B5;
+        --light-primary-color:      #C5CAE9;
+        --focused-color: #C5CAE9;
+        --text-primary-color:       #FFFFFF;
+        --accent-color:             #FF4081;
+        /* --primary-background-color: #C5CAE9; */
+        --primary-text-color:       #212121;
+        --secondary-text-color:     #757575;
+        --disabled-text-color:      #BDBDBD;
+        --divider-color:            #BDBDBD;
+
+        --shadow-color: rgba(48,63,159, 0.3);
+        --shadow-color-hover: rgba(48,63,159, 0.4);
+
         /* Custom */
         --default-background-color: #FFFFFF;
         --secondary-background-color: #F5F5F5;
@@ -35,14 +50,14 @@
         --slideAnimation: 0.4s cubic-bezier(0, 0, 0.2, 1);
         --border-radius: 5px;
         --box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
-        --box-shadow-primary-color: 0 3px 3px -2px rgba(103, 58, 183, 0.3), 0 3px 4px 0 rgba(103, 58, 183, 0.3), 0 1px 8px 0 rgba(103, 58, 183, 0.3);
-        --box-shadow-primary-color-hover: 0 1px 3px -2px rgba(103, 58, 183, 0.4), 0 4px 5px 0 rgba(103, 58, 183, 0.4), 0 2px 9px 0 rgba(103, 58, 183, 0.4);
+        --box-shadow-primary-color: 0 3px 3px -2px var(--shadow-color), 0 3px 4px 0 var(--shadow-color), 0 1px 8px 0 var(--shadow-color);
+        --box-shadow-primary-color-hover: 0 1px 3px -2px var(--shadow-color-hover), 0 4px 5px 0 var(--shadow-color-hover), 0 2px 9px 0 var(--shadow-color-hover);
         --font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; /*TODO Change to Open Sans*/
         --max-container-width: 1280px;
 
-        --primary-color-transparent: rgba(103, 58, 183, 0.1);
-        --primary-color-light: rgba(103, 58, 183, 0.8);
-        --primary-color-white: #EDE7F6;
+        --primary-color-transparent: rgba(48,63,159, 0.1);
+        --primary-color-light: rgba(48,63,159, 0.8);
+        --primary-color-white: var(--light-primary-color);
 
         /* Labels */
         --gde: #3d5afe;

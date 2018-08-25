@@ -3,7 +3,7 @@
   "description": "GDG Baroda brings to you the biggest Google event in Baroda. Join us for this year's DevFest! To subscribe for updates, visit website.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev, baroda, gdgbaroda",
-  "dates": "",
+  "dates": "30 September, 2018",
   "partnershipProposition": "mailto:manan@gdgbaroda.com",
   "share": "Share",
   "followOur": "Follow our",
@@ -55,11 +55,6 @@
     {
       "title": "Event Resources",
       "links": [
-        {
-          "name": "Call for Papers",
-          "url": "https://drive.google.com/open?id=10tPuu_7ASM8C70SotqRqIW5Uzos9BzALilMMQPg_JvA",
-          "newTab": true
-        },
         {
           "name": "Code of Conduct",
           "url": "/cod/",

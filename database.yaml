@@ -46,7 +46,6 @@ sessions:
     complexity: Beginner
     description: 'Explore how you can integrate DialogFlow in your application.'
     language: English
-    presentation: https://speakerdeck.com/gdglviv/mete-atamel-windows-and-net-on-google-cloud-platform
     speakers:
     - arif
     tags: [DialogFlow, ChatBots]

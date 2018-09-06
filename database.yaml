@@ -502,19 +502,22 @@ sessions:
     language: English
     title: TBD
 speakers:
-  tbd:
-    bio: ''
-    company: ''
+  arif:
+    bio: 'Arif is a software engineer and founder of code4developers.com. He is a speaker and open source freak, keen about learning and sharing. He is experienced with DialogFlow and JavaScript libraries.'
+    company: 'code4developers.com'
     companyLogo: ''
-    companyLogoUrl: ''
+    companyLogoUrl: 'https://code4developers.com/wp-content/uploads/2018/04/c4d-1.png'
     country: ''
     featured: false
-    name: To Be Decided
+    name: Arif Khoja
     photo: ''
-    photoUrl: https://placehold.it/400x400?text=TBD
-    shortBio: ''
-    socials: []
-    title: 'Product Manager/Developer'
+    photoUrl: https://i.imgur.com/rERjqkfb.jpg?1
+    shortBio: 'Founder, Code4Developers.com'
+    socials: 
+    - icon: facebook
+      link: 'https://www.facebook.com/arif.s.khoja'
+      name: Facebook
+    title: 'Founder'
 team:
 - members: []
   title: Coming soon...

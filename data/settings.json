@@ -18,6 +18,16 @@
   "hashtag": "DevFest18",
   "disabledSchedule": false,
   "navigation": [
+    {
+      "route": "home",
+      "permalink": "/",
+      "title": "Home"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "title": "Speakers"
+    }
   ],
   "heroSettings": {
     "home": {
@@ -38,7 +48,7 @@
     },
     "speakers": {
       "title": "Speakers",
-      "description": "If you wish to deliver a talk or session, please submit a response to call for papers.",
+      "description": "Hear from the Speakers and Partners who are will be making the DevFest awesome! Check back often as we add more speakers, including our customers and partners.",
       "background": {
         "color": "#FFF"
       },

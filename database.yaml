@@ -196,7 +196,7 @@ speakers:
     name: Daniel M. Phiri
     photo: ''
     photoUrl: https://i.imgur.com/ROUgwAy.jpg?2
-    shortBio: ''
+    shortBio: 'GitHub Campus Expert'
     socials:
     - icon: facebook
       link: https://www.facebook.com/danielmadalitsophiri
@@ -238,7 +238,7 @@ speakers:
     name: Dhruv Apte
     photo: ''
     photoUrl: https://i.imgur.com/fDlGgw3.jpg?1
-    shortBio: ''
+    shortBio: 'Data Science Enthusiast'
     socials:
     - icon: facebook
       link: https://www.facebook.com/ethanhunt.26
@@ -263,7 +263,7 @@ speakers:
     name: Parth Jansari
     photo: ''
     photoUrl: https://avatars2.githubusercontent.com/u/17850142?s=460&v=4
-    shortBio: ''
+    shortBio: 'Flutter Developer'
     socials:
     - icon: facebook
       link: https://www.facebook.com/parth.jansari.3?sk=wall
@@ -285,7 +285,7 @@ speakers:
     name: Rahul Banker
     photo: ''
     photoUrl: https://i.imgur.com/oyH9EUU.jpg
-    shortBio: ''
+    shortBio: 'Organiser @ GDG Baroda'
     socials:
     - icon: facebook
       link: https://www.facebook.com/bankerrahul
@@ -304,7 +304,7 @@ speakers:
     name: Chintan Shah
     photo: ''
     photoUrl: https://i.imgur.com/Tp2Bux4.jpg
-    shortBio: ''
+    shortBio: 'Senior Android Developer @ Pavans Group'
     socials:
     - icon: facebook
       link: https://www.facebook.com/chintan1193?ref=content_filter
@@ -320,7 +320,7 @@ speakers:
     name: Prajyot Mainkar
     photo: ''
     photoUrl: https://i.imgur.com/8FGbugA.jpg
-    shortBio: ''
+    shortBio: 'Organiser @ GDG Goa'
     socials:
     - icon: facebook
       link: https://www.facebook.com/prajyotmainkar?ref=content_filter
@@ -329,8 +329,54 @@ speakers:
       link: https://twitter.com/prajyotm
       name: Twitter
 team:
-- members: []
-  title: Coming soon...
+- title: Organising Team 
+  members: 
+  - name: 'Rahul Banker'
+    photoUrl: 'https://i.imgur.com/oyH9EUU.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/bankerrahul
+      name: Facebook
+  - name: 'Manan Jadhav'
+    photoUrl: 'https://i.imgur.com/S72V785.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/jadhavmanan
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/curosmj
+      name: Twitter
+    - icon: github
+      link: https://github.com/curosmj
+      name: GitHub
+  - name: 'Sneh Pandya'
+    photoUrl: 'https://i.imgur.com/MnfKnYn.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/snehpandya18
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/snehpandya18
+      name: Twitter
+    - icon: github
+      link: https://github.com/snehpandya18
+      name: GitHub
+- title: Media & Graphics Team 
+  members: 
+  - name: 'Dron Trivedi'
+    photoUrl: 'https://i.imgur.com/osmXKyc.jpg'
+    title: Video Lead
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/drontrivedi
+      name: Facebook
+  - name: 'Aditya Patel'
+    photoUrl: 'https://i.imgur.com/UszkNGh.jpg'
+    title: Graphics Lead
+    socials: []
 tickets:
 - available: false
   currency: "₹"

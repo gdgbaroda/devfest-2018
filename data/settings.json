@@ -32,6 +32,11 @@
       "route": "schedule",
       "permalink": "/schedule/",
       "title": "Schedule"
+    },
+    {
+      "route": "team",
+      "permalink": "/team/",
+      "title": "Team"
     }
   ],
   "heroSettings": {

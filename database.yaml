@@ -338,6 +338,9 @@ team:
     - icon: facebook
       link: https://www.facebook.com/bankerrahul
       name: Facebook
+    - icon: twitter
+      link: https://twitter.com/bankerrahul
+      name: Twitter
   - name: 'Manan Jadhav'
     photoUrl: 'https://i.imgur.com/S72V785.jpg'
     title: Organiser
@@ -373,6 +376,9 @@ team:
     - icon: facebook
       link: https://www.facebook.com/drontrivedi
       name: Facebook
+    - icon: twitter
+      link: https://twitter.com/trivedidron
+      name: Twitter
   - name: 'Aditya Patel'
     photoUrl: 'https://i.imgur.com/UszkNGh.jpg'
     title: Graphics Lead

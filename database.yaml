@@ -99,15 +99,15 @@ schedule:
 sessions:
   '100':
     title: 'Registration & Breakfast'
-    description: Get your badge, coffee, enjoy talking with tech edicts around
+    description: It's the D-Day! Get yourself in line to register for the DevFest and interact with fellow attendees over a cup of coffee!
     icon: registration
   '101':
     title: Lunch
-    description: Enjoy your lunch while networking with fellow attendees
+    description: Enjoy your lunch while networking with fellow attendees and speakers !
     icon: lunch
   '102':
     title: 'Quiz!'
-    description: Quick small quiz!
+    description: Let's drive away the incoming lethargy with a small quiz!
     icon: game
   '103':
     title: Vote of Thanks
@@ -115,38 +115,38 @@ sessions:
     icon: game
   '104':
     title: High Tea & Networking
-    description: Enjoy your high tea while networking with fellow attendees
+    description: Enjoy your high tea while networking with fellow attendees and speakers !
     icon: lunch
   '800':
     title: Keynote
     complexity: Beginner
-    description: Kick start DevFest 2018!
+    description: Welcome to GDG Baroda:DevFest 2018! Come join us on a look back on our journey for the past year and see whats ahead!
     language: English
     speakers:
     - rahul
     tags: []
   '801':
-    title: Flutter
+    title: Diving into Flutter
     complexity: Beginner
-    description: 'Explore how you can use Flutter in our application. '
+    description: 'Flutter is a cross platform app development platform from Google. Learn how you can use Flutter to build cross platform apps with ease.'
     language: English
     speakers:
     - parth
     tags:
     - flutter
   '802':
-    title: Firebase
+    title: Firebase for Flutter
     complexity: Beginner
-    description: Explore how you can use Firebase in our application.
+    description: Firebase already is a major provider in the Backend-As-A-Service (Baas) market, see how you can keep using the same platform for developing cross platform apps on Flutter!
     language: English
     speakers:
     - chintan
     tags:
     - Firebase
   '803':
-    title: ML kit
+    title: Machine Learning & Firebase ML kit
     complexity: Beginner
-    description: Explore how you can use ML Kit in our application.
+    description: Firebase ML Kit is a beta service provided by Firebase, and it enables mobile apps to perform trivial Machine Learning tasks easily. Learn how you can use this new platform in your Flutter apps.
     language: English
     speakers:
     - dhruv
@@ -155,7 +155,7 @@ sessions:
   '804':
     title: Building a ChatBot with DialogFlow
     complexity: Beginner
-    description: Explore how you can integrate DialogFlow in your application.
+    description: Learn how you can build interfaces for the next generation of apps, which includes Google Assitant, Google Home, etc. using DialogFlow.
     language: English
     speakers:
     - arif
@@ -163,23 +163,21 @@ sessions:
     - DialogFlow
     - ChatBots
   '805':
-    title: Android
+    title: Jumping on the JavaScript Express
     complexity: Beginner
-    description: Explore Android.
-    language: English
-    speakers:
-    - prajyot
-    tags:
-    - Android
-  '806':
-    title: JavaScript
-    complexity: Beginner
-    description: Explore how you can integrate DialogFlow in your application.
+    description: Join us on this session to demystify one of the most misunderstood platforms and scripting language of all time - JavaScript.
     language: English
     speakers:
     - daniel
     tags:
     - javascript
+  '806':
+    title: Special Speaker Slot
+    complexity: Beginner
+    description: 
+    language: English
+    speakers: []
+    tags: []
 speakers:
   daniel:
     title: ''
@@ -237,7 +235,7 @@ speakers:
     featured: false
     name: Dhruv Apte
     photo: ''
-    photoUrl: https://i.imgur.com/fDlGgw3.jpg?1
+    photoUrl: https://i.imgur.com/5M92NxF.jpg?1
     shortBio: 'Data Science Enthusiast'
     socials:
     - icon: facebook
@@ -284,7 +282,7 @@ speakers:
     featured: false
     name: Rahul Banker
     photo: ''
-    photoUrl: https://i.imgur.com/oyH9EUU.jpg
+    photoUrl: https://i.imgur.com/FocaCip.jpg
     shortBio: 'Organiser @ GDG Baroda'
     socials:
     - icon: facebook
@@ -309,25 +307,6 @@ speakers:
     - icon: facebook
       link: https://www.facebook.com/chintan1193?ref=content_filter
       name: Facebook
-  prajyot:
-    title: Organiser
-    bio: I convert coffee to code. I run androcid. Entrepreneur by wish, developer by love.
-    company: GDG Goa
-    companyLogo: ''
-    companyLogoUrl: ''
-    country: ''
-    featured: false
-    name: Prajyot Mainkar
-    photo: ''
-    photoUrl: https://i.imgur.com/8FGbugA.jpg
-    shortBio: 'Organiser @ GDG Goa'
-    socials:
-    - icon: facebook
-      link: https://www.facebook.com/prajyotmainkar?ref=content_filter
-      name: Facebook
-    - icon: twitter
-      link: https://twitter.com/prajyotm
-      name: Twitter
 team:
 - title: Organising Team 
   members: 

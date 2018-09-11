@@ -35,25 +35,178 @@ schedule:
   '2018-09-30':
     dateReadable: September 30, 2018
     timeslots:
-    - endTime: 'TBD'
+    - startTime: '8:30'
+      endTime: '9:30'
+      sessions:
+      - items:
+        - '100'
+    - startTime: '9:30'
+      endTime: '10:00'
+      sessions:
+      - items:
+        - '800'
+    - startTime: '10:00'
+      endTime: '10:45'
       sessions:
       - items:
         - '801'
-      startTime: 'TBD'
+    - startTime: '10:45'
+      endTime: '11:30'
+      sessions:
+      - items:
+        - '802'
+    - startTime: '11:30'
+      endTime: '12:15'
+      sessions:
+      - items:
+        - '803'
+    - startTime: '12:15'
+      endTime: '01:00'
+      sessions:
+      - items:
+        - '804'
+    - startTime: '01:00'
+      endTime: '02:00'
+      sessions:
+      - items:
+        - '101'
+    - startTime: '02:00'
+      endTime: '02:15'
+      sessions:
+      - items:
+        - '102'
+    - startTime: '02:15'
+      endTime: '03:00'
+      sessions:
+      - items:
+        - '805'
+    - startTime: '03:00'
+      endTime: '03:30'
+      sessions:
+      - items:
+        - '806'
+    - startTime: '03:30'
+      endTime: '04:00'
+      sessions:
+      - items:
+        - '103'
+    - startTime: '04:00'
+      endTime: '05:00'
+      sessions:
+      - items:
+        - '104'
     tracks: []
 sessions:
-  '801':
+  '100':
+    title: 'Registration & Breakfast'
+    description: It's the D-Day! Get yourself in line to register for the DevFest and interact with fellow attendees over a cup of coffee!
+    icon: registration
+  '101':
+    title: Lunch
+    description: Enjoy your lunch while networking with fellow attendees and speakers !
+    icon: lunch
+  '102':
+    title: 'Quiz!'
+    description: Let's drive away the incoming lethargy with a small quiz!
+    icon: game
+  '103':
+    title: Vote of Thanks
+    description: 
+    icon: game
+  '104':
+    title: High Tea & Networking
+    description: Enjoy your high tea while networking with fellow attendees and speakers !
+    icon: lunch
+  '800':
+    title: Keynote
     complexity: Beginner
-    description: 'Explore how you can integrate DialogFlow in your application.'
+    description: Welcome to GDG Baroda:DevFest 2018! Come join us on a look back on our journey for the past year and see whats ahead!
+    language: English
+    speakers:
+    - rahul
+    tags: []
+  '801':
+    title: Diving into Flutter
+    complexity: Beginner
+    description: 'Flutter is a cross platform app development platform from Google. Learn how you can use Flutter to build cross platform apps with ease.'
+    language: English
+    speakers:
+    - parth
+    tags:
+    - flutter
+  '802':
+    title: Firebase for Flutter
+    complexity: Beginner
+    description: Firebase already is a major provider in the Backend-As-A-Service (Baas) market, see how you can keep using the same platform for developing cross platform apps on Flutter!
+    language: English
+    speakers:
+    - chintan
+    tags:
+    - Firebase
+  '803':
+    title: Machine Learning & Firebase ML kit
+    complexity: Beginner
+    description: Firebase ML Kit is a beta service provided by Firebase, and it enables mobile apps to perform trivial Machine Learning tasks easily. Learn how you can use this new platform in your Flutter apps.
+    language: English
+    speakers:
+    - dhruv
+    tags:
+    - MLkit
+  '804':
+    title: Building a ChatBot with DialogFlow
+    complexity: Beginner
+    description: Learn how you can build interfaces for the next generation of apps, which includes Google Assitant, Google Home, etc. using DialogFlow.
     language: English
     speakers:
     - arif
-    tags: [DialogFlow, ChatBots]
-    title: 'Building a ChatBot with DialogFlow'
+    tags:
+    - DialogFlow
+    - ChatBots
+  '805':
+    title: Jumping on the JavaScript Express
+    complexity: Beginner
+    description: Join us on this session to demystify one of the most misunderstood platforms and scripting language of all time - JavaScript.
+    language: English
+    speakers:
+    - daniel
+    tags:
+    - javascript
+  '806':
+    title: Special Speaker Slot
+    complexity: Beginner
+    description: 
+    language: English
+    speakers: []
+    tags: []
 speakers:
+  daniel:
+    title: ''
+    bio: Daniel is a Computer Science Student at Parul University, India where he
+      also happens to be a GitHub Campus Expert. He was born in Lusaka, Zambia. He
+      is passionate about the positive change code can bring about in peoples lives
+      and is always looking to find that next big technology, besides his almost unhealthy
+      obsession with music.
+    company: ''
+    companyLogo: ''
+    companyLogoUrl: ''
+    country: ''
+    featured: false
+    name: Daniel M. Phiri
+    photo: ''
+    photoUrl: https://i.imgur.com/ROUgwAy.jpg?2
+    shortBio: 'GitHub Campus Expert'
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/danielmadalitsophiri
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/malgamves
+      name: Twitter
   arif:
-    bio: 'Arif is a software engineer and founder of code4developers.com. He is a speaker and open source freak, keen about learning and sharing. He is experienced with DialogFlow and JavaScript libraries.'
-    company: 'code4developers.com'
+    bio: Arif is a software engineer and founder of code4developers.com. He is a speaker
+      and open source freak, keen about learning and sharing. He is experienced with
+      DialogFlow and JavaScript libraries.
+    company: code4developers.com
     companyLogo: ''
     companyLogoUrl: ''
     country: ''
@@ -61,25 +214,161 @@ speakers:
     name: Arif Khoja
     photo: ''
     photoUrl: https://i.imgur.com/rERjqkfb.jpg?1
-    shortBio: 'Founder, Code4Developers.com'
-    socials: 
+    shortBio: Founder, Code4Developers.com
+    socials:
     - icon: facebook
-      link: 'https://www.facebook.com/arif.s.khoja'
+      link: https://www.facebook.com/arif.s.khoja
       name: Facebook
     - icon: twitter
-      link: 'https://twitter.com/@akarif'
+      link: https://twitter.com/@akarif
       name: Twitter
-    title: 'Founder'
+    title: Founder
+  dhruv:
+    bio: Dhruv Apte is a fourth-year mechanical undergraduate working in data science
+      for the past three years. He has developed his own digital assistant in the
+      last two years using deep learning. He has previously given talks at Open Source
+      Summit, IIT Kharagpur, IIT Patna, GCET and Women Techmaker's Group, Baroda Chapter.
+    company: ''
+    companyLogo: ''
+    companyLogoUrl: ''
+    country: ''
+    featured: false
+    name: Dhruv Apte
+    photo: ''
+    photoUrl: https://i.imgur.com/5M92NxF.jpg?1
+    shortBio: 'Data Science Enthusiast'
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/ethanhunt.26
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/apte_dhruv
+      name: Twitter
+    title: 'Data Science Enthusiast'
+  parth:
+    bio: Parth is a guy who is trying to grow up and do mature stuff and work but
+      ends up designing, playing games(most of the time) or watching Movies/Tv Series.Parth
+      has five years of experience in designing and two years experience in front-end
+      development. Parth uses Angular for Creating frontend, ionic and Flutter to
+      create hybrid apps. Parth has mastery over most of the adobe creative suite
+      apps.Currently, Parth is exploring Flutter as he believes it can be a replacement
+      for ionic 2 and all other hybrid app frameworks.
+    company: ''
+    companyLogo: ''
+    companyLogoUrl: ''
+    country: ''
+    featured: false
+    name: Parth Jansari
+    photo: ''
+    photoUrl: https://avatars2.githubusercontent.com/u/17850142?s=460&v=4
+    shortBio: 'Flutter Developer'
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/parth.jansari.3?sk=wall
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/jansariparth
+      name: Twitter
+    title: 'Flutter Developer'
+  rahul:
+    title: 'Organiser'
+    bio: Rahul, organizer of GDG Baroda, is a wordpress developer natively & does
+      a lot of things apart from tech. Things include, travel, management & whatnot.
+      Rahul has been leading the community at Baroda since last 5 years.
+    company: 'GDG Baroda'
+    companyLogo: ''
+    companyLogoUrl: ''
+    country: ''
+    featured: false
+    name: Rahul Banker
+    photo: ''
+    photoUrl: https://i.imgur.com/FocaCip.jpg
+    shortBio: 'Organiser @ GDG Baroda'
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/bankerrahul
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/bankerrahul?lang=en
+      name: Twitter
+  chintan:
+    title: 'Senior Android Developer'
+    bio: Chintan is an Android and iOS Developer. He loves technology and creativity. 
+    company: 'Pavans Group'
+    companyLogo: ''
+    companyLogoUrl: ''
+    country: ''
+    featured: false
+    name: Chintan Shah
+    photo: ''
+    photoUrl: https://i.imgur.com/Tp2Bux4.jpg
+    shortBio: 'Senior Android Developer @ Pavans Group'
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/chintan1193?ref=content_filter
+      name: Facebook
 team:
-- members: []
-  title: Coming soon...
+- title: Organising Team 
+  members: 
+  - name: 'Rahul Banker'
+    photoUrl: 'https://i.imgur.com/FocaCip.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/bankerrahul
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/bankerrahul
+      name: Twitter
+  - name: 'Manan Jadhav'
+    photoUrl: 'https://i.imgur.com/S72V785.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/jadhavmanan
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/curosmj
+      name: Twitter
+    - icon: github
+      link: https://github.com/curosmj
+      name: GitHub
+  - name: 'Sneh Pandya'
+    photoUrl: 'https://i.imgur.com/MnfKnYn.jpg'
+    title: Organiser
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/snehpandya18
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/snehpandya18
+      name: Twitter
+    - icon: github
+      link: https://github.com/snehpandya18
+      name: GitHub
+- title: Media & Graphics Team 
+  members: 
+  - name: 'Dron Trivedi'
+    photoUrl: 'https://i.imgur.com/osmXKyc.jpg'
+    title: Video Lead
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/drontrivedi
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/trivedidron
+      name: Twitter
+  - name: 'Aditya Patel'
+    photoUrl: 'https://i.imgur.com/UszkNGh.jpg'
+    title: Graphics Lead
+    socials: []
 tickets:
 - available: false
   currency: "₹"
   starts: ''
   ends: ''
   inDemand: true
-  info: 'Only 50 seats available'
+  info: Only 50 seats available
   name: Early Bird
   price: 99
   primary: true
@@ -90,7 +379,7 @@ tickets:
   ends: ''
   info: ''
   name: Regular
-  price: 149
+  price: 199
   soldOut: false
   starts: ''
   url: https://gdgbaroda.com

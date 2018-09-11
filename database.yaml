@@ -61,37 +61,37 @@ schedule:
       - items:
         - '803'
     - startTime: '12:15'
-      endTime: '01:00'
+      endTime: '13:00'
       sessions:
       - items:
         - '804'
-    - startTime: '01:00'
-      endTime: '02:00'
+    - startTime: '13:00'
+      endTime: '14:00'
       sessions:
       - items:
         - '101'
-    - startTime: '02:00'
-      endTime: '02:15'
+    - startTime: '14:00'
+      endTime: '14:15'
       sessions:
       - items:
         - '102'
-    - startTime: '02:15'
-      endTime: '03:00'
+    - startTime: '14:15'
+      endTime: '15:00'
       sessions:
       - items:
         - '805'
-    - startTime: '03:00'
-      endTime: '03:30'
+    - startTime: '15:00'
+      endTime: '15:30'
       sessions:
       - items:
         - '806'
-    - startTime: '03:30'
-      endTime: '04:00'
+    - startTime: '15:30'
+      endTime: '16:00'
       sessions:
       - items:
         - '103'
-    - startTime: '04:00'
-      endTime: '05:00'
+    - startTime: '16:00'
+      endTime: '17:00'
       sessions:
       - items:
         - '104'
@@ -307,6 +307,9 @@ speakers:
     - icon: facebook
       link: https://www.facebook.com/chintan1193?ref=content_filter
       name: Facebook
+    - icon: twitter
+      link: https://twitter.com/chintanshah1193
+      name: Twitter
 team:
 - title: Organising Team 
   members: 

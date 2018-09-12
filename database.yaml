@@ -311,11 +311,11 @@ speakers:
       link: https://twitter.com/chintanshah1193
       name: Twitter
 team:
-- title: Organising Team 
+- title: DevFest 2018 Team 
   members: 
   - name: 'Rahul Banker'
     photoUrl: 'https://i.imgur.com/FocaCip.jpg'
-    title: Organiser
+    title: ''
     socials:
     - icon: facebook
       link: https://www.facebook.com/bankerrahul
@@ -325,7 +325,7 @@ team:
       name: Twitter
   - name: 'Manan Jadhav'
     photoUrl: 'https://i.imgur.com/S72V785.jpg'
-    title: Organiser
+    title: ''
     socials:
     - icon: facebook
       link: https://www.facebook.com/jadhavmanan
@@ -338,7 +338,7 @@ team:
       name: GitHub
   - name: 'Sneh Pandya'
     photoUrl: 'https://i.imgur.com/MnfKnYn.jpg'
-    title: Organiser
+    title: ''
     socials:
     - icon: facebook
       link: https://www.facebook.com/snehpandya18
@@ -349,11 +349,39 @@ team:
     - icon: github
       link: https://github.com/snehpandya18
       name: GitHub
-- title: Media & Graphics Team 
-  members: 
+  - name: 'Hardik Mistry'
+    photoUrl: 'https://i.imgur.com/OdUy4CV.jpg'
+    title: ''
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/mistryhardik05
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/mistryhardik05
+      name: Twitter
+    - icon: github
+      link: https://github.com/mistryhardik
+      name: GitHub
+  - name: 'Hardip Patel'
+    photoUrl: 'https://i.imgur.com/hGGLKd3.jpg'
+    title: ''
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/AboutHardipPatel
+      name: Facebook
+  - name: 'Chintan Shah'
+    photoUrl: 'https://i.imgur.com/Tp2Bux4.jpg'
+    title: ''
+    socials:
+    - icon: facebook
+      link: https://www.facebook.com/chintan1193?ref=content_filter
+      name: Facebook
+    - icon: twitter
+      link: https://twitter.com/chintanshah1193
+      name: Twitter
   - name: 'Dron Trivedi'
     photoUrl: 'https://i.imgur.com/osmXKyc.jpg'
-    title: Video Lead
+    title: ''
     socials:
     - icon: facebook
       link: https://www.facebook.com/drontrivedi
@@ -363,7 +391,7 @@ team:
       name: Twitter
   - name: 'Aditya Patel'
     photoUrl: 'https://i.imgur.com/UszkNGh.jpg'
-    title: Graphics Lead
+    title: ''
     socials: []
 tickets:
 - available: false

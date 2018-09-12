@@ -107,20 +107,20 @@
     }
   },
   "location": {
-    "label": "Location",
-    "name": "Yet to be announced",
+    "label": "Hotel Sayaji",
+    "name": "Hotel Sayaji",
     "description": "",
     "city": "Baroda",
     "short": "Baroda, Gujarat",
-    "address": "Yet to be announced",
+    "address": "Jetalpur Road, Sayajiganj, Vadodara, Gujarat 390005",
     "pointer": {
-      "latitude": 22.305784, 
-      "longitude":  73.184464,
-      "zoom": 12
+      "latitude": 22.305562, 
+      "longitude":  73.185562,
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": 22.305784, 
-      "longitude":  73.184464
+      "latitude": 22.305562, 
+      "longitude":  73.185562
     }
   },
   "mediaQueries": {

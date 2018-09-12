@@ -394,7 +394,7 @@ team:
     title: ''
     socials: []
 tickets:
-- available: false
+- available: true
   currency: "₹"
   starts: ''
   ends: ''
@@ -404,7 +404,7 @@ tickets:
   price: 99
   primary: true
   soldOut: false
-  url: https://gdgbaroda.com
+  url: https://www.instamojo.com/bankerrahul/gdg-baroda-devfest-2018/
 - available: false
   currency: "₹"
   ends: ''
@@ -413,7 +413,7 @@ tickets:
   price: 199
   soldOut: false
   starts: ''
-  url: https://gdgbaroda.com
+  url: https://www.instamojo.com/bankerrahul/gdg-baroda-devfest-2018/
 triggers:
   images: false
 videos:

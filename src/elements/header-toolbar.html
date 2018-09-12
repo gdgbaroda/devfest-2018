@@ -152,17 +152,17 @@
         </paper-tab>
         {% endfor %}
 
-        <a href="#" onclick="return false;">
+        <!-- <a href="#" onclick="return false;">
           <paper-button class="buy-button" on-tap="_subscribe" primary>
             <iron-icon icon="hoverboard:bell" style="--iron-icon-fill-color: #fff;"></iron-icon>
             Subscribe
           </paper-button>
-        </a>
+        </a> -->
 
-        <!-- <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
+        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a> -->
+        </a>
       </paper-tabs>
     </app-toolbar>
 

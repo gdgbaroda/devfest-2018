@@ -83,13 +83,13 @@
     <div class="container" layout vertical end-justified fit$="[[viewport.isTabletPlus]]">
       <div class="description-card" layout vertical justified>
         <div>
-          <h2>{$ mapBlock.title $}</h2>
+          <h2>Hotel Sayaji</h2>
           <p>{$ location.description $}</p>
         </div>
         <div class="bottom-info" layout horizontal justified center>
           <span class="address">{$ location.address $}</span>
           <a
-            href="https://www.google.com/maps/dir/?api=1&destination={$ location.pointer.latitude $},{$ location.pointer.longitude $}"
+            href="https://goo.gl/maps/KAUWovNzb9C2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -122,23 +122,6 @@
                 disableDoubleClickZoom: true,
                 scrollwheel: false,
                 draggable: false,
-                styles: [{
-                  stylers: [{
-                    // lightness: 0,
-                  }, {
-                    visibility: 'on',
-                  }, {
-                    gamma: 0.9,
-                  }, {
-                    weight: 0.4,
-                  }],
-                }, {
-                  elementType: 'labels',
-                  stylers: [{
-                    visibility: 'on',
-                  }],
-                },
-              ],
               }
             ),
           },

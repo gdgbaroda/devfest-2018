@@ -394,23 +394,23 @@ team:
     title: ''
     socials: []
 tickets:
-- available: false
+- available: true
   currency: "₹"
   starts: ''
   ends: ''
   inDemand: true
-  info: Only 50 seats available
+  info: Only limited seats available
   name: Early Bird
-  price: 99
+  price: 149
   primary: true
-  soldOut: true
+  soldOut: false
   url: https://www.instamojo.com/bankerrahul/gdg-baroda-devfest-2018/
-- available: true
+- available: false
   currency: "₹"
   ends: ''
   info: ''
   name: Regular
-  price: 149
+  price: 199
   soldOut: false
   starts: ''
   url: https://www.instamojo.com/bankerrahul/gdg-baroda-devfest-2018/
